@@ -1,0 +1,59 @@
+.App {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;  
+}
+
+.list-item {
+    display: flex;
+    cursor: pointer;
+    max-width: 200px;
+    height: 49px;
+    border: 1px solid rgba(211, 211, 211, 0.733);
+    margin-top: -1px;
+    padding-left: 15px;
+    align-items: center; 
+}
+
+.list-item.selected {
+    background-color: rgba(3, 91, 255, 0.76);
+    color: white;
+}
+
+.details-box {
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-top: 10px;
+}
+
+.details-name {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    border: 1px solid rgba(211, 211, 211, 0.733);
+    align-items: center; 
+    padding-left: 15px;
+}
+  
+  .item {
+    display: flex;
+    font-size: 15px;
+    height: 45px;
+    border: 1px solid rgba(211, 211, 211, 0.733);
+    align-items: center; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
